@@ -3,12 +3,51 @@
 <head>
     <meta charset="UTF-8">
     <title>Google Clone</title>
+    <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css"> 
 </head>
 
 <body>
+    <nav>
+        <div id="navigation-bar">
+            <ul>
+                <li><a href="#"><p>Gmail</p></a></li>
+                <li><a href="#"><p>Images</p></a></li>
+                <li><a href=#">
+                    <svg id="apps-icon" focusable="false" viewBox="0 0 24 24"><path d="M6,8c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM12,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM6,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM6,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM12,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM16,6c0,1.1 0.9,2 2,2s2,-0.9 2,-2 -0.9,-2 -2,-2 -2,0.9 -2,2zM12,8c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM18,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM18,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2z"></path></svg>
+                    <a></li>
+                <li><a href="https://github.com/Aquilay"><img src="resources/profile.jpg" id="profile-pic"></a></li> 
+            </ul>
+        </div>
+    </nav>
     <main>
-        <img id="logo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google Logo">   
-        <input type="search" id="search">
+        <div id="img-div">
+            <img id="logo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google Logo">
+        </div>
+        <div id="search-area">
+            <div id="search-bar">
+                <img src="resources/loupe.svg" id="search-icon">
+                <input type="search" id="search">
+            </div>
+            <div id="buttons">
+                <button class="search-btn">Google Search</button>
+                <button class="search-btn">I'm Feeling Lucky</button>
+            </div>
+            <p>Google offered in: <a href="#">French</a>    <a href="#">العربية</a></p>
+           
+        </div>
     </main>
+    <footer>
+        <ul id="footer-left">
+            <li><a href="#">About</a></li>
+            <li><a href="#">Advertising</a></li>
+            <li><a href="#">Business</a></li>
+            <li><a href="#">How Search works</a></li>
+        </ul>
+        <ul id="footer-right">
+            <li><a href="#">Privacy</a></li>
+            <li><a href="#">Terms</a></li>
+            <li><a href="#">Settings</a></li> 
+        </ul>
+    </footer>
 </body>
